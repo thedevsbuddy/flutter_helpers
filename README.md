@@ -10,7 +10,7 @@ Flutter helpers is a basic set of helpers that can be used to help in your any f
 flutter pub add get
 ```
 
-## Which helpers we have
+## Helpers we have
 
 * **```ColorPalette```:-** Color palette provides you a seperated file to manage all of your color palette to be used in your project or application.
 * **```Keyboard```**:- Keyboard helper only provide a method to hide opened keyboard of the application.
