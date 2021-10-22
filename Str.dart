@@ -33,4 +33,11 @@ class Str {
         .map((s) => ucFirst(s))
         .join(" ");
   }
+
+  /// Returns initials from the given String
+  static String initials(String str) {
+    return str.split(" ").length > 1
+        ? str.split(" ").map((s) => ucFirst(s.substring(0, 1))).join("")
+        : str.substring(0, 2).toUpperCase();
+  }
 }

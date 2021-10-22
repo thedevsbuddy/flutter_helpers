@@ -1,6 +1,7 @@
-import 'package:basic_ui/basic_ui.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+
+import 'Str.dart';
 
 class ShowSnack {
   // Success

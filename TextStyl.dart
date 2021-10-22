@@ -15,14 +15,14 @@ class TextStyl {
 
   static TextStyle? title(BuildContext context) {
     return Theme.of(context).textTheme.headline2?.copyWith(
-          fontSize: 28.0,
+          fontSize: 22.0,
           fontWeight: FontWeight.w600,
         );
   }
 
   static TextStyle? subtitle(BuildContext context) {
     return Theme.of(context).textTheme.headline3?.copyWith(
-          fontSize: 24.0,
+          fontSize: 18.0,
           fontWeight: FontWeight.w600,
         );
   }
@@ -36,6 +36,10 @@ class TextStyl {
 
   static TextStyle? bodySm(BuildContext context) {
     return Theme.of(context).textTheme.bodyText1?.copyWith(fontSize: 14.0);
+  }
+
+  static TextStyle? bodyXs(BuildContext context) {
+    return Theme.of(context).textTheme.bodyText1?.copyWith(fontSize: 13.0);
   }
 
   static TextStyle? caption(BuildContext context) {
