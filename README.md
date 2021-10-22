@@ -96,14 +96,6 @@ Column(
                 fontWeight: FontWeight.w600,
             ), // Here we have override default body color and also used our ColorPalette Helper
         ),
-        /// Button text style
-        TextButton(
-            onPressed: () {},
-            child: Text(
-                "I am a button",
-                style: TextStyl.button(context),
-            ),
-        ),
     ]
 )
 ```
